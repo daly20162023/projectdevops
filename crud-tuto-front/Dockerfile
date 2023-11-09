@@ -1,5 +1,5 @@
 FROM node:14 AS builder
-WORKDIR /crud-tuto-front
+WORKDIR /app
 COPY package*.json ./
 RUN npm install -g @angular/cli
 RUN npm install
